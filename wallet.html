@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>wallet</title>
+</head>
+<body class="wallet-pg">   
+        <div class="card border-warning mb-3 rounded-0 wallet-card">
+                <div class="card-body text-center">
+                  <h5 class="card-title">FUND YOUR WALLET</h5>
+                  <p class="card-text">By proceeding you automatically open a localcurrency account and which you’ll need to fund inorder to use the features cointained in this app</p>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                        <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                          <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                        <a class="nav-link bg-warning mx-1 px-3 text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          DEPOSIT FUNDS
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item" href="#" id="bank-btn">FROM BANK</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#" id="card-btn">FROM CARD</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#" id="phone-btn">FROM PHONE</a>
+                                        </div>
+                                      </li>
+                                      <hr class="my-0">
+                            <li class="nav-item">
+                              <a class="nav-link bg-warning mx-1 px-3 text-center" href="#" id="check-btn">CHECK BALANCE</a>
+                            </li>
+                            <hr class="my-0">
+                            <li class="nav-item">
+                              <a class="nav-link bg-warning mx-1 px-3 text-center" href="#" id="transaction-btn">TRANSACTIONS .</a>
+                            </li>
+                            <hr class="my-0">
+                            <li class="nav-item">
+                              <a class="nav-link bg-warning mx-1 px-3 text-center" href="#" id="statement-btn">MINI STATEMENTS</a>
+                            </li>
+                            <hr class="my-0">
+                          </ul>
+                        </div>
+                      </nav>
+                      <div class="form-1">
+                      <h5 class="card-title text-center">FUNDING WALLET FROM BANK</h5>
+                      <div class="frm-box">
+                          <form action="">
+                              <div class="form-group">
+                                  <select class="form-control" id="bank-account">
+                                      <option>SELECT BANK</option>
+                                      <option>SELECT KCB</option>
+                                      <option>SELECT EQUITY</option>
+                                      <option>SELECT FAMILY</option>
+                                      <option>SELECT CO-OPERATION</option>
+                                    </select>
+                              </div>
+                              <div class="form-group">
+                                  <select class="form-control" id="account">
+                                      <option>SELECT ACCOUNT</option>
+                                    </select>
+                              </div>
+                              <div>
+                                  <input type="text" class="" id="account-no" name="" required="">
+                                  <label>ENTER ACCOUNT NUMBER</label>
+                              </div>
+                              <div>
+                              <input type="text" class="form-control form-control-sm" id="amount" name="" required="" >
+                              <label>ENTER AMOUNT TO DEPOSIT</label>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-dark float-right rounded-0 wallet-btn">DEPOSIT</button>
+                            </div>
+                             
+                            </form>
+                      </div>
+                      </div>
+                      <div class="form-1">
+                          <h5 class="card-title text-center">FUNDING WALLET FROM CARD</h5>
+                          <div class="frm-box">
+                          <form>
+                                <div class="form-group">
+                                   
+                                  <select class="form-control" id="bank-account">
+                                        <option>SELECT BANK</option>
+                                      </select>
+                                </div>
+                                <div class="form-group">
+                                  
+                                  <select class="form-control" id="account">
+                                        <option>SELECT ACCOUNT</option>
+                                      </select>
+                                </div>
+                                <div>
+                                    <input type="text" class="form-control form-control-sm" id="account-no" name="" required="">
+                                    <label>ENTER ACCOUNT NUMBER</label>
+                                </div>
+                                <div>
+                                    <input type="text" class="form-control form-control-sm" id="amount" name="" required="" >
+                                    <label>ENTER AMOUNT TO DEPOSIT</label>
+                                  </div>                                                  
+                                <button type="submit" class="btn btn-dark float-right wallet-btn">DEPOSIT</button>
+                              </form>
+                              </div>
+        </div>
+        <div class="form-1">
+                              <h5 class="card-title text-center">FUNDING WALLET FROM PHONE</h5>
+                              <div class="frm-box">
+                              <form>
+                                    <div class="form-group">
+                                       
+                                      <select class="form-control" id="bank-account">
+                                            <option>SELECT NETWORK PROVIDE</option>
+                                          </select>
+                                    </div>
+                                    <div class="form-group">
+                                      
+                                      <select class="form-control" id="account">
+                                            <option>SELECT CURRENCY</option>
+                                          </select>
+                                        </div> 
+                                        <div>
+                                            <input type="text" class="form-control form-control-sm" id="amount" name="" required="" >
+                                            <label>ENTER AMOUNT</label>
+                                          </div>
+                                                              
+                                    
+                                    <button type="submit" class="btn btn-dark float-right wallet-btn">DEPOSIT</button>
+                                  </form>
+                                  </div>
+        </div>
+        <div class="form-1">
+                                  <h5 class="card-title text-center">CHECK BALANCE</h5>
+                                  <div class="frm-box">
+                                  <form>
+                                        <div class="form-group">
+                                           
+                                          <select class="form-control" id="bank-account">
+                                                <option>SELECT ACCOUNT</option>
+                                              </select>
+                                        </div>
+                                        <button type="submit" class="btn btn-dark float-right wallet-btn">CHECK</button>
+                                      </form>
+                                      </div>
+                                    </div>
+                                    <div class="form-1">
+                                     <h5 class="card-title text-center">CHECK TRANSACTIONS</h5>
+                                     <div class="transaction-dropdown">
+                                     <li class="btn-group dropright">
+                                        <a class="bg-white mx-1 px-3" href="#" id="transactionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <p>SELECT ACCOUNT<p>
+                                          <hr class="my-0">
+                                        </a>
+                                        
+                                        <div class="dropdown-menu" aria-labelledby="transactionDropdown">
+                                          <a class="dropdown-item" href="#" id="transactionlocal-account">LOCAL ACCOUNT</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#" id="transactionforeign-account">FOREIGN ACCOUNT</a>
+                                          </div>
+                                      </li>
+                                      </div>
+                                        <button type="submit" class="btn btn-dark float-right wallet-btn">CHECK</button>
+                                    </div>
+                                    <div class="form-1">
+                                      <div class="statements">
+                                        <div class="statement-head">
+                                        <div class="shadow p-1 py-4 mb-4 bg-white rounded"><p>transaction local STATEMENT - LOCAL ACCOUNT</p></div>
+                                       </div>
+                                        <div class="stmnt">
+                                           <div class="shadow p-1 py-3 mb-4  bg-white rounded"><p>2018.12.28 </p><p>Withdrew KSHS. 20,500.00</p><p>Equity Bank</p></div>
+                                           <div class="shadow p-1 py-3 mb-4 bg-white rounded"><p>2018.12.28</p><p>Customer Airtime Purchase KES 100.0</p><p>Safaricom Limited</p></div>
+                                           <div class="shadow p-1 py-3 mb-4 bg-white rounded"><p>2018.12.28</p><p>Received Money KES 5,050.00</p><p>Ruth Magago</p></div>
+                                        </div>
+                                        <button type="submit" class="btn btn-dark float-right transactioncloseBtn-1">CLOSE</button>
+                                       </div> 
+                                    </div>
+
+                                    <div class="form-1">
+                                      <div class="statements">
+                                        <div class="statement-head">
+                                        <div class="shadow p-1 py-4 mb-4 bg-white rounded"><p>Transacion foreign STATEMENT - Foreign ACCOUNT</p></div>
+                                       </div>
+                                        <div class="stmnt">
+                                           <div class="shadow p-1 py-3 mb-4  bg-white rounded"><p>2018.12.28 </p><p>Withdrew KSHS. 20,500.00</p><p>Equity Bank</p></div>
+                                           <div class="shadow p-1 py-3 mb-4 bg-white rounded"><p>2018.12.28</p><p>Customer Airtime Purchase KES 100.0</p><p>Safaricom Limited</p></div>
+                                           <div class="shadow p-1 py-3 mb-4 bg-white rounded"><p>2018.12.28</p><p>Received Money KES 5,050.00</p><p>Ruth Magago</p></div>
+                                        </div>
+                                        <button type="submit" class="btn btn-dark float-right transactioncloseBtn-2">CLOSE</button>
+                                       </div> 
+                                    </div>
+                                    <div class="form-1">
+                                    
+                                     <h5 class="card-title text-center">DISPLAY MIN STATEMENTS</h5>
+                                     <div class="transaction-dropdown">
+                                        <li class="btn-group dropright">
+                                           <a class="bg-white mx-1 px-3 text-center" href="#" id="transactionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <p> SELECT ACCOUNT</p>
+                                             <hr class="my-0">
+                                           </a>
+                                           <div class="dropdown-menu" aria-labelledby="transactionDropdown">
+                                             <a class="dropdown-item" href="#" id="stmntlocal-account">LOCAL ACCOUNT</a>
+                                             <div class="dropdown-divider"></div>
+                                             <a class="dropdown-item" href="#" id="stmntforeign-account">FOREIGN ACCOUNT</a>
+                                             </div>
+                                         </li>
+                                         
+                            
+                                      </div>
+                                            <button type="submit" class="btn btn-dark float-right wallet-btn">DISPLAY</button> 
+                                        
+                                                                             
+                                          </div>
+                                          <div class="form-1">
+                                            <div class="statements">
+                                              <div class="statement-head">
+                                              <div class="shadow p-1 py-4 mb-4 bg-white rounded"><p>Mini STATEMENT local - LOCAL ACCOUNT</p></div>
+                                             </div>
+                                              <div class="stmnt">
+                                                 <div class="shadow p-1 py-3 mb-4  bg-white rounded"><p>2018.12.28 </p><p>Withdrew KSHS. 20,500.00</p><p>Equity Bank</p></div>
+                                                 <div class="shadow p-1 py-3 mb-4 bg-white rounded"><p>2018.12.28</p><p>Customer Airtime Purchase KES 100.0</p><p>Safaricom Limited</p></div>
+                                                 <div class="shadow p-1 py-3 mb-4 bg-white rounded"><p>2018.12.28</p><p>Received Money KES 5,050.00</p><p>Ruth Magago</p></div>
+                                              </div>
+                                              <button type="submit" class="btn btn-dark float-right ministmntcloseBtn-1">CLOSE</button>
+                                             </div> 
+                                          </div>
+
+                                          <div class="form-1">
+                                            <div class="statements">
+                                              <div class="statement-head">
+                                              <div class="shadow p-1 py-4 mb-4 bg-white rounded"><p>MINI-STATEMENT foreign - foreign ACCOUNT</p></div>
+                                             </div>
+                                              <div class="stmnt">
+                                                 <div class="shadow p-1 py-3 mb-4  bg-white rounded"><p>2018.12.28 </p><p>Withdrew KSHS. 20,500.00</p><p>Equity Bank</p></div>
+                                                 <div class="shadow p-1 py-3 mb-4 bg-white rounded"><p>2018.12.28</p><p>Customer Airtime Purchase KES 100.0</p><p>Safaricom Limited</p></div>
+                                                 <div class="shadow p-1 py-3 mb-4 bg-white rounded"><p>2018.12.28</p><p>Received Money KES 5,050.00</p><p>Ruth Magago</p></div>
+                                              </div>
+                                              <button type="submit" class="btn btn-dark float-right ministmntcloseBtn-2">CLOSE</button>
+                                             </div> 
+                                          </div>                
+          </div>
+    <script src="js/bootstrapjquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/style.js"></script>
+</body>
+</html>

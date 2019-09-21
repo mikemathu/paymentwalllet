@@ -1,0 +1,111 @@
+/*Wallet*/
+.form-1{
+	transition: opacity 1s ease-in;
+	min-height: 60vh;
+}
+
+.wallet-card{
+margin: 0vh 25vw;
+margin-top: 20px;
+color: #000000;
+}
+.wallet-card p{
+	color: #000000;
+}
+
+.wallet-pg .border-warning{
+	border: 3px solid orange;
+	border-radius: 20px!important;
+}
+.frm-box input[type="text"],
+.frm-box select{
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	border-bottom:1px solid rgb(61, 60, 60);
+	transition: .5s;
+	width: 60%;
+	margin: auto;
+}
+
+.frm-box div{
+	position:relative;
+	text-align: center;
+	padding: 12px 0px;
+	height: 60px;
+
+}
+.frm-box div label{
+	position:absolute;
+	top:10px;
+	left:22%;
+	transition:.5s;
+	pointer-events:none;  
+}
+.frm-box input[type="text"]:focus ~ label,
+.frm-box input[type="text"]:valid ~ label{
+	top:-12px;
+	left:22%;
+	color:black;
+	font-size:12px;
+	font-weight:bold;
+}
+.frm-box input[type="text"]:focus,
+.frm-box input[type="text"]:valid,
+.frm-box select:focus,
+.frm-box select:valid{
+	box-shadow: none;
+	border-bottom:1px solid rgb(158, 158, 158);
+}
+.frm-box input[type="text"]:focus,
+.frm-box select:focus{
+	border-bottom:2px solid orange;
+}
+.frm-box input{
+	width:60%;
+	height: 30px;
+	box-sizing:border-box;
+	box-shadow:none;
+	outline:none;
+	border: none;
+	border-bottom:2px solid #999 ; 	
+}
+
+.dropright{
+	margin: 5% 0% 0% 15%;
+}
+
+.wallet-btn{
+	margin-right: 130px;
+
+}
+.statements{
+	margin-top: 30px;
+}
+.shadow{
+	margin: 0px 30px;
+}
+.shadow p {
+	padding-left: 20px;
+	line-height: 0.3rem;
+}
+
+@media(max-width:1070px){
+	.wallet-card{
+		margin: 0vh 18vw;
+		}
+	}
+@media(max-width:991px){
+	.wallet-card{
+		margin: 0vh 10vw;
+		}
+	}
+	@media(max-width:598px){
+		.wallet-card{
+			margin: 0vh 2vw;
+			}
+		.wallet-btn{
+			margin-right: 95px;
+			
+		}
+		}
